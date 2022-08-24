@@ -28,7 +28,6 @@ function mostrar(e) {
 
         let links = document.querySelectorAll('.link');
         links[0].style.filter = 'grayscale(0%)';
-        // pega todos
         for (let i = 0; i < links.length; i++) {
             links[i].style.filter = 'grayscale(0%)';
         }
